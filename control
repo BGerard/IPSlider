@@ -1,0 +1,9 @@
+Package: com.bengerard.ipslider
+Name: IPSlider
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: This tweak sets your device IP as your slide message when you are connected to a WiFi network. It also allows you to set an "Error Message" to display when your not connected to WiFi or an error does occur.
+Maintainer: Ben Gerard
+Author: Ben Gerard
+Section: Tweaks

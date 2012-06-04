@@ -1,0 +1,10 @@
+Package: com.bengerard.ipslider
+Name: IPSlider
+Depends: mobilesubstrate
+Version: 0.0.1-19
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Ben Gerard
+Author: Ben Gerard
+Section: Tweaks
+Installed-Size: 20
