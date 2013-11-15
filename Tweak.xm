@@ -7,19 +7,10 @@
 %hook SBAwayLockBar
 
 -(void)_setLabel:(id)label {
-NSMutableDictionary *plist = [[NSMutableDictionary alloc] initWithContentsOfFile:@"/var/mobile/Library/Preferences/com.bengerard.ipslider.plist"];
-
-static BOOL value = NO;
-
-value = [[plist objectForKey:@"enabled"]boolValue];
-
-if(!value){
-return %orig;
-}
 
     struct ifaddrs *interfaces = NULL;
     struct ifaddrs *temp_addr = NULL;
-    NSString *wifiAddress = (id)[plist objectForKey:@"label"];
+    NSString *wifiAddress = nil;
     NSString *cellAddress = nil;
 
     // retrieve the current interfaces - returns 0 on success
