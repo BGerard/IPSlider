@@ -13,4 +13,6 @@ Info
 
 You are welcome to use this code in any project you wish. However, it would be nice if you mentioned me in the credits! If you need help follow me on twitter @ben_gerard
 
-
+License
+=========
+Released under the GNU GPL Version 2. See License.txt for details.
